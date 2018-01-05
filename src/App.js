@@ -12,6 +12,7 @@ import NoticeBoard from './Components/NoticeBoard.js';
 import Prospectus from './Components/Prospectus.js';
 import Results from './Components/Results.js';
 import Home from './Components/Home.js';
+import Footer from './Components/Footer.js';
 
 class App extends Component {
   render() {
@@ -34,6 +35,7 @@ class App extends Component {
             </div>
           </div>
         </HashRouter>
+        <Footer />
       </div>
     );
   }

@@ -1,0 +1,19 @@
+@import 'colours.scss';
+
+.footer {
+  background-color: $baseSchoolColour;
+  min-height: 200px;
+  .footerCarousel {
+    .carousel-inner {
+      .item {
+        font-size: 30px!important;
+      }
+    }
+  }
+  .copyright {
+    background-color: $darkerSchoolColour;
+    line-height: 50px;
+    font-size: 16px;
+    color: $white;
+  }
+}
