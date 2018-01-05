@@ -3,11 +3,20 @@
 .footer {
   background-color: $baseSchoolColour;
   min-height: 200px;
-  .footerCarousel {
+  #footerCarousel {
+    width: 50%;
+    color: $white;
+    min-height: 200px;
     .carousel-inner {
+      padding-top: 25px;
       .item {
-        font-size: 30px!important;
+        font-size: 25px;
+        padding-left: 15%;
+        padding-right: 15%;
       }
+    }
+    .carousel-control {
+        background-image: none;
     }
   }
   .copyright {
