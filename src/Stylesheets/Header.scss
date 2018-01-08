@@ -1,0 +1,12 @@
+@import 'colours.scss';
+.navbar {
+  background-color: $baseSchoolColour!important;
+  .navItem {
+    .navItemText {
+      color: $black;
+    }
+  }
+  .navItem:hover {
+    background-color: $darkerSchoolColour;
+  }
+}
