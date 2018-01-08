@@ -1,0 +1,22 @@
+@import 'colours.scss';
+.marquee {
+    width: 100%;
+    min-height: 170px;
+    overflow: hidden;
+    background: $baseSchoolColour;
+}
+
+.marquee p {
+    text-indent: 0;
+    position: absolute;
+    padding: 30px;
+    animation: marquee 10s linear infinite;
+}
+.marquee p:hover {
+    animation-play-state: paused
+}
+
+@keyframes marquee {
+  from {top: 135px;}
+  to {top: 35px;}
+}

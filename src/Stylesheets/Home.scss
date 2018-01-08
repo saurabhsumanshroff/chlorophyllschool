@@ -1,0 +1,29 @@
+@import 'colours.scss';
+.home {
+  .loginCalendarNews {
+    padding: 50px;
+    .calenderIcon {
+      p {
+        font-size: 20px;
+        padding: 10px;
+      }
+    }
+    .loginIcon {
+      p {
+        font-size: 20px;
+        padding: 10px;
+      }
+    }
+    .newsTile {
+      .newsVerticalScroll {
+        background: $darkerSchoolColour;
+        border: 10px;
+        h2 {
+          line-height: 50px;
+          color: $white;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
