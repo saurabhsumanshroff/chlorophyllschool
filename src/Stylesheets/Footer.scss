@@ -1,23 +1,26 @@
 @import 'colours.scss';
-
 .footer {
-  background-color: $baseSchoolColour;
-  min-height: 200px;
-  #footerCarousel {
-    width: 50%;
-    color: $white;
-    min-height: 200px;
-    .carousel-inner {
-      padding-top: 25px;
-      .item {
-        font-size: 25px;
-        padding-left: 15%;
-        padding-right: 15%;
+  .row {
+    background-color: $baseSchoolColour;
+      #footerCarousel {
+        min-height: 200px;
+        color: $white;
+        min-height: 200px;
+        padding: 30px;
+        .carousel-inner {
+          .item {
+            font-size: 25px;
+            padding-left: 15%;
+            padding-right: 15%;
+          }
+        }
+        .carousel-control {
+            background-image: none;
+        }
+        .carousel-indicators {
+          bottom: 0;
+        }
       }
-    }
-    .carousel-control {
-        background-image: none;
-    }
   }
   .copyright {
     background-color: $darkerSchoolColour;
