@@ -2,25 +2,24 @@
 .footer {
   .row {
     background-color: $baseSchoolColour;
-      #footerCarousel {
-        min-height: 200px;
-        color: $white;
-        min-height: 200px;
-        padding: 30px;
-        .carousel-inner {
-          .item {
-            font-size: 25px;
-            padding-left: 15%;
-            padding-right: 15%;
-          }
-        }
-        .carousel-control {
-            background-image: none;
-        }
-        .carousel-indicators {
-          bottom: 0;
+    #footerCarousel {
+      color: $white;
+      min-height: 200px;
+      padding: 30px;
+      .carousel-inner {
+        .item {
+          font-size: 25px;
+          padding-left: 15%;
+          padding-right: 15%;
         }
       }
+      .carousel-control {
+          background-image: none;
+      }
+      .carousel-indicators {
+        bottom: 0;
+      }
+    }
   }
   .copyright {
     background-color: $darkerSchoolColour;

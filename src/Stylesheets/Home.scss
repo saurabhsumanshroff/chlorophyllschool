@@ -2,18 +2,28 @@
 .home {
   .loginCalendarNews {
     padding: 50px;
-    .calenderIcon {
+    .calender {
+      .calenderIcon {
+        font-size: 85px;
+        color: $baseSchoolColour;
+      }
+      p {
+        font-size: 20px;
+        padding: 10px;
+      }
+
+    }
+    .login {
+      .loginIcon {
+        font-size: 85px;
+        color: $baseSchoolColour;
+      }
       p {
         font-size: 20px;
         padding: 10px;
       }
     }
-    .loginIcon {
-      p {
-        font-size: 20px;
-        padding: 10px;
-      }
-    }
+
     .newsTile {
       .newsVerticalScroll {
         background: $darkerSchoolColour;

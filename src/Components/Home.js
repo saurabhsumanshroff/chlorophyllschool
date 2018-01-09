@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import BannerCarousel from './BannerCarousel.js';
 import Marquee from './Marquee.js';
+import PrincipalMessage from './PrincipalMessage.js';
 import '../Stylesheets/Home.css';
-import CalendarIcon from '../Resources/calendar-icon.png';
-import LoginIcon from '../Resources/portal-login-icon.png';
 
 class Home extends Component {
   render() {
@@ -11,12 +10,12 @@ class Home extends Component {
       <div className="home">
         <BannerCarousel />
         <div className="row loginCalendarNews">
-          <div className="col-sm-3 calenderIcon">
-            <img alt="Login" src={CalendarIcon} />
+          <div className="calender col-sm-3">
+            <span className="calenderIcon glyphicon glyphicon-calendar"></span>
             <p> Calender Events </p>
           </div>
-          <div className="col-sm-3 loginIcon">
-            <img alt="Login" src={LoginIcon} />
+          <div className="login col-sm-3">
+            <span className="loginIcon glyphicon glyphicon-log-in"></span>
             <p> Login </p>
           </div>
           <div className="col-sm-6 newsTile">
@@ -26,6 +25,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <PrincipalMessage />
       </div>
     );
   }
