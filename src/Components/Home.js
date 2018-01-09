@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BannerCarousel from './BannerCarousel.js';
 import Marquee from './Marquee.js';
 import PrincipalMessage from './PrincipalMessage.js';
+import OurSchool from './OurSchool.js';
 import '../Stylesheets/Home.css';
 import {calenderText, loginText, schoolNews} from '../Resources/Text.js';
 
@@ -27,6 +28,7 @@ class Home extends Component {
           </div>
         </div>
         <PrincipalMessage />
+        <OurSchool />
       </div>
     );
   }

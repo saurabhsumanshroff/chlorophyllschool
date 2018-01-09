@@ -1,0 +1,23 @@
+@import 'colours.scss';
+
+.ourSchool {
+  .message {
+    h1 {
+      margin-bottom: 50px;
+    }
+  }
+  .row {
+    background-color: $baseSchoolColour;
+    margin-bottom: 20px;
+    .schoolImage {
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    .schoolMessage {
+      padding-top: 80px;
+      color: $white;
+      font-size: 21px;
+      line-height: 34px;
+    }
+  }
+}
