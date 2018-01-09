@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
 import '../Stylesheets/Header.css';
+import {navigationFields} from '../Resources/Text.js';
 
 class Header extends Component {
   render() {
@@ -15,16 +16,16 @@ class Header extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
-              <li className="navItem" role="presentation"><a className="navItemText" href='/Home'>Home</a></li>
-              <li className="navItem" role="presentation"><a className="navItemText" href='/Results'>Results</a></li>
-              <li className="navItem" role="presentation"><a className="navItemText" href='/#/AboutUs'>About Us</a></li>
-              <li className="navItem" role="presentation"><a className="navItemText" href='/Messages'>Messages</a></li>
-              <li className="navItem" role="presentation"><a className="navItemText" href='/Gallery'>Gallery</a></li>
-              <li className="navItem" role="presentation"><a className="navItemText" href='/Achievements'>Achievements</a></li>
-              <li className="navItem" role="presentation"><a className="navItemText" href='/Prospectus'>Prospectus</a></li>
-              <li className="navItem" role="presentation"><a className="navItemText" href='/NoticeBoard'>Notice Board</a></li>
-              <li className="navItem" role="presentation"><a className="navItemText" href='/Downloads'>Downloads</a></li>
-              <li className="navItem" role="presentation"><a className="navItemText" href='/ContactUs'>Contact Us</a></li>
+              <li className="navItem" role="presentation"><a className="navItemText" href='/Home'>{navigationFields[0]}</a></li>
+              <li className="navItem" role="presentation"><a className="navItemText" href='/Results'>{navigationFields[1]}</a></li>
+              <li className="navItem" role="presentation"><a className="navItemText" href='/#/AboutUs'>{navigationFields[2]}</a></li>
+              <li className="navItem" role="presentation"><a className="navItemText" href='/Messages'>{navigationFields[3]}</a></li>
+              <li className="navItem" role="presentation"><a className="navItemText" href='/Gallery'>{navigationFields[4]}</a></li>
+              <li className="navItem" role="presentation"><a className="navItemText" href='/Achievements'>{navigationFields[5]}</a></li>
+              <li className="navItem" role="presentation"><a className="navItemText" href='/Prospectus'>{navigationFields[6]}</a></li>
+              <li className="navItem" role="presentation"><a className="navItemText" href='/NoticeBoard'>{navigationFields[7]}</a></li>
+              <li className="navItem" role="presentation"><a className="navItemText" href='/Downloads'>{navigationFields[8]}</a></li>
+              <li className="navItem" role="presentation"><a className="navItemText" href='/ContactUs'>{navigationFields[9]}</a></li>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap';
 import carousel from '../Resources/carousel.jpg';
+import {bannerCarouselLabel} from '../Resources/Text.js';
+import {bannerCarouselSubLabel} from '../Resources/Text.js';
 
 class Header extends Component {
   render() {
@@ -9,22 +11,22 @@ class Header extends Component {
         <Carousel.Item>
           <img width={900} height={500} alt="900x500" src={carousel} />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Any Text-1 you want to display</p>
+            <h3>{bannerCarouselLabel[0]}</h3>
+            <p>{bannerCarouselSubLabel[0]}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img width={900} height={500} alt="900x500" src={carousel} />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Any Text-2 you want to display.</p>
+            <h3>{bannerCarouselLabel[1]}</h3>
+            <p>{bannerCarouselSubLabel[1]}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img width={900} height={500} alt="900x500" src={carousel} />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Any Text-3 you want to display</p>
+            <h3>{bannerCarouselLabel[2]}</h3>
+            <p>{bannerCarouselSubLabel[2]}</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

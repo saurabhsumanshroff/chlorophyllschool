@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap';
 import '../Stylesheets/Footer.css';
+import {footerCarouselMessage, copyrightText} from '../Resources/Text.js';
 
 class Footer extends Component {
   render() {
@@ -10,13 +11,13 @@ class Footer extends Component {
           <div className="col-sm-8">
             <Carousel id="footerCarousel" >
               <Carousel.Item>
-                <p>Any Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to display</p>
+                <p>{footerCarouselMessage[0]}</p>
               </Carousel.Item>
               <Carousel.Item>
-                <p>Any Text-1 you want to displayAny Text-2 you want to displayAny Text-1 you want to displayAny Text-1 you want to display</p>
+                <p>{footerCarouselMessage[1]}</p>
               </Carousel.Item>
               <Carousel.Item>
-                <p>Any Text-1 you want to displayAny Text-3 you want to displayAny Text-1 you want to displayAny Text-1 you want to display</p>
+                <p>{footerCarouselMessage[2]}</p>
               </Carousel.Item>
             </Carousel>
           </div>
@@ -30,7 +31,7 @@ class Footer extends Component {
           </div>
         </div>
         <div className="copyright">
-          © copyright 2017 all rights reserved by, Chlorophyll School, Jhumri Telaiya
+          {copyrightText}
         </div>
       </div>
     );
