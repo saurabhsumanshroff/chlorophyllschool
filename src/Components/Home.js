@@ -3,6 +3,7 @@ import BannerCarousel from './BannerCarousel.js';
 import Marquee from './Marquee.js';
 import PrincipalMessage from './PrincipalMessage.js';
 import OurSchool from './OurSchool.js';
+import PhotoGallery from './PhotoGallery.js';
 import '../Stylesheets/Home.css';
 import {calenderText, loginText, schoolNews} from '../Resources/Text.js';
 
@@ -29,6 +30,7 @@ class Home extends Component {
         </div>
         <PrincipalMessage />
         <OurSchool />
+        <PhotoGallery />
       </div>
     );
   }

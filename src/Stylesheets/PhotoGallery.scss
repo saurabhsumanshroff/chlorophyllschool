@@ -1,0 +1,23 @@
+.photoGallery {
+  padding: 20px;
+  .message {
+    h1 {
+      margin-bottom: 50px;
+    }
+    .photoGalleryIcon {
+      font-size: 30px;
+      padding-right: 20px;
+    }
+  }
+  #photoGalleryCarousel {
+    .row {
+      img {
+        padding-bottom: 10px;
+      }
+    }
+    .carousel-control {
+      width: 5%;
+      background-image: none;
+    }
+  }
+}
