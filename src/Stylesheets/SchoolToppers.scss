@@ -1,0 +1,21 @@
+@import 'colours.scss';
+
+.schoolToppers {
+  margin: auto;
+  padding-bottom: 100px;
+  .heading {
+    h1 {
+      margin-bottom: 50px;
+    }
+  }
+  .row {
+    .col-sm-3 {
+      img {
+        border-radius: 150px;
+      }
+      .studentName {
+        color: $baseSchoolColour;
+      }
+    }
+  }
+}

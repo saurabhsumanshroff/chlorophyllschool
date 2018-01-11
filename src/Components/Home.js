@@ -4,6 +4,7 @@ import Marquee from './Marquee.js';
 import PrincipalMessage from './PrincipalMessage.js';
 import OurSchool from './OurSchool.js';
 import PhotoGallery from './PhotoGallery.js';
+import SchoolToppers from './SchoolToppers.js';
 import '../Stylesheets/Home.css';
 import {calenderText, loginText, schoolNews} from '../Resources/Text.js';
 
@@ -31,6 +32,7 @@ class Home extends Component {
         <PrincipalMessage />
         <OurSchool />
         <PhotoGallery />
+        <SchoolToppers />
       </div>
     );
   }
