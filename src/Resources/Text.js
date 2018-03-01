@@ -28,7 +28,7 @@ export const schoolNews = "School News";
 export const principalMessageHeading = "PRINCIPAL'S MESSAGE";
 export const principalName = "Fr principal Thrikkodanmalil TOR";
 export const principalMessage = [
-  "Any Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to display",
+  "Any Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to display",
   "Any Text-2 you want to displayAny Text-2 you want to displayAny Text-1 you want to displayAny Text-2 you want to display",
   "Any Text-3 you want to displayAny Text-3 you want to displayAny Text-1 you want to displayAny Text-3 you want to display"
 ];
@@ -36,7 +36,7 @@ export const principalMessage = [
 export const directorMessageHeading = "DIRECTOR'S MESSAGE";
 export const directorName = "Fr director Thrikkodanmalil TOR";
 export const directorMessage = [
-  "Any Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to display",
+  "Any Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to displayAny Text-1 you want to display",
   "Any Text-2 you want to displayAny Text-2 you want to displayAny Text-1 you want to displayAny Text-2 you want to display",
   "Any Text-3 you want to displayAny Text-3 you want to displayAny Text-1 you want to displayAny Text-3 you want to display"
 ];

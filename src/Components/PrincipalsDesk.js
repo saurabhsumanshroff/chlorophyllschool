@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import PrincipalImage from '../Resources/principal.jpg';
 import PrincipalDirectorMessage from './PrincipalDirectorMessage.js';
-import {Image, Modal, Button} from 'react-bootstrap';
+import {Image, Modal} from 'react-bootstrap';
 import {principalMessageHeading} from '../Resources/Text.js';
 import {principalName, principalMessage} from '../Resources/Text.js';
+import {truncateLongTexts} from '../Utils/stringManipulations.js'
 import '../Stylesheets/PrincipalsDesk.css';
 
 class PrincipalsDesk extends Component {
@@ -30,10 +31,7 @@ class PrincipalsDesk extends Component {
       <div className="principalsDesk">
         <Image src={PrincipalImage} responsive />
         <h3>Principal's Desk</h3>
-        <p> Principal Message Principal Message Principal Message Principal Message Principal Message Principal Message Director Message Director Message Director Message </p>
-        <Button bsStyle="primary" bsSize="large" onClick={this.handleShow}>
-          Launch demo modal
-        </Button>
+        <p> {truncateLongTexts(principalMessage[0], 190)}...<a onClick={this.handleShow}>more</a> </p>
         <Modal keyboard show={this.state.show} onHide={this.handleClose} dialogClassName="director-modal">
           <Modal.Header closeButton>
             <Modal.Title>{principalMessageHeading}</Modal.Title>

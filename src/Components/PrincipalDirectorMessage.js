@@ -8,8 +8,6 @@ import {Carousel} from 'react-bootstrap';
 class PrincipalDirectorMessage extends Component {
 
   render() {
-    console.log(this.props.message);
-    console.log(this.props);
     if(this.props.message === undefined) {
       return null;
     }
