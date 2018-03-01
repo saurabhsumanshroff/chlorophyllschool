@@ -3,6 +3,7 @@ import {Carousel} from 'react-bootstrap';
 import carousel from '../Resources/carousel.jpg';
 import {bannerCarouselLabel} from '../Resources/Text.js';
 import {bannerCarouselSubLabel} from '../Resources/Text.js';
+import '../Stylesheets/BannerCarousel.css';
 
 class Header extends Component {
   render() {

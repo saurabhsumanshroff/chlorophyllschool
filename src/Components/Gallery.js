@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import PhotoGallery from './PhotoGallery.js';
 
 class Gallery extends Component {
   render() {
     return (
-      <div className="home">
-        asdsakda
-      </div>
+      <PhotoGallery />
     );
   }
 }

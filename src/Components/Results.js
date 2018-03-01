@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import SchoolToppers from './SchoolToppers.js';
 
 class Results extends Component {
   render() {
     return (
-      <div className="home">
-        asdsakda
-      </div>
+      <SchoolToppers />
     );
   }
 }

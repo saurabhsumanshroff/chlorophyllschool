@@ -1,33 +1,19 @@
 @import 'colours.scss';
 .home {
-  .loginCalendarNews {
-    padding: 50px;
-    .calender {
-      .calenderIcon {
-        font-size: 85px;
-        color: $baseSchoolColour;
-      }
-      p {
-        font-size: 20px;
-        padding: 10px;
-      }
-
+  .directorPrincipalNews {
+    padding: 30px;
+    .director {
+      border: 1px solid red;
     }
-    .login {
-      .loginIcon {
-        font-size: 85px;
-        color: $baseSchoolColour;
-      }
-      p {
-        font-size: 20px;
-        padding: 10px;
-      }
+
+    .principal {
+      border: 1px solid red;
     }
 
     .newsTile {
+      border: 1px solid red;
       .newsVerticalScroll {
         background: $darkerSchoolColour;
-        border: 10px;
         h2 {
           line-height: 50px;
           color: $white;
